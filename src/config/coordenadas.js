@@ -187,4 +187,79 @@ export const coordenadas = [
         latitud: 42.43381442,
         longitud: -8.64799018,
     },
+    {
+        poblacion: "Salamanca",
+        latitud: 40.96736822,
+        longitud: -5.66538084,
+    },
+    {
+        poblacion: "San Sebastián",
+        latitud: 43.31717158,
+        longitud: -1.98191785,
+    },
+    {
+        poblacion: "Santa Cruz de Tenerife",
+        latitud: 28.462854082,
+        longitud: -16.247206286,
+    },
+    {
+        poblacion: "Santander",
+        latitud: 43.46297885,
+        longitud: -3.80474784,
+    },
+    {
+        poblacion: "Segovia",
+        latitud: 40.9498703,
+        longitud: -4.12524116,
+    },
+    {
+        poblacion: "Sevilla",
+        latitud: 37.38620512,
+        longitud: -5.99251368,
+    },
+    {
+        poblacion: "Soria",
+        latitud: 41.76327912,
+        longitud: -2.46624798,
+    },
+    {
+        poblacion: "Tarragona",
+        latitud: 41.11910287,
+        longitud: 1.2584219,
+    },
+    {
+        poblacion: "Teruel",
+        latitud: 40.34412951,
+        longitud: -1.10927177,
+    },
+    {
+        poblacion: "Toledo",
+        latitud: 39.85715187,
+        longitud: -4.02431421,
+    },
+    {
+        poblacion: "Valencia",
+        latitud: 39.47534441,
+        longitud: -0.37565717,
+    },
+    {
+        poblacion: "Valladolid",
+        latitud: 41.65232777,
+        longitud: -4.72334924,
+    },
+    {
+        poblacion: "Vitoria-Gasteiz",
+        latitud: 42.85058789,
+        longitud: -2.67275685,
+    },
+    {
+        poblacion: "Zamora",
+        latitud: 41.49913956,
+        longitud: -5.75494831,
+    },
+    {
+        poblacion: "Zaragoza",
+        latitud: 41.65645655,
+        longitud: -0.87928652,
+    },
 ];
