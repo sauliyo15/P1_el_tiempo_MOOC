@@ -28,7 +28,7 @@ export default function Resultados(props) {
             title={props.items.daily[0].weather[0].description}
           />
           <p>Mín: {redondear(props.items.daily[0].temp.min)} ºC - Máx:{" "}{redondear(props.items.daily[0].temp.max)} ºC</p>
-          <p>Probabilidad lluvia: {props.items.daily[0].pop * 100} %</p>
+          <p>Probabilidad lluvia: {redondear(props.items.daily[0].pop * 100)} %</p>
           <p>Amanecer: {convertirTimestamp(props.items.daily[0].sunrise)} horas</p>
           <p>Atardecer: {convertirTimestamp(props.items.daily[0].sunset)} horas</p>
         </li>
@@ -46,7 +46,7 @@ export default function Resultados(props) {
                 title={item.weather[0].description}
               />
               <p>Mín: {redondear(item.temp.min)} ºC - Máx:{" "}{redondear(item.temp.max)} ºC</p>
-              <p>Probabilidad lluvia: {item.pop * 100} %</p>
+              <p>Probabilidad lluvia: {redondear(item.pop * 100)} %</p>
               <p>Amanecer: {convertirTimestamp(item.sunrise)} horas</p>
               <p>Atardecer: {convertirTimestamp(item.sunset)} horas</p>
             </li>
